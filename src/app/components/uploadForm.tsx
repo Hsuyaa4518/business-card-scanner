@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function UploadForm() {
   const [file, setFile] = useState<File | null>(null);
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
